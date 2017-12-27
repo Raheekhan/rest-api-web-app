@@ -10,9 +10,9 @@ MongoClient.connect(url, (err, client) => {
 
   const db = client.db('TodoApp');
   console.log('Connected to MongoDB server');
-  //
+
   // db.collection('Todos').insertOne({
-  //   text: 'Buy milk',
+  //   text: 'Eat lunch',
   //   completed: false
   // }, (err, result) => {
   //   if (err) {
